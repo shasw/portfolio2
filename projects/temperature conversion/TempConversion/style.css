@@ -1,0 +1,18 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+#form {
+    background-color: coral;
+    color: white;
+    padding: 100px;
+}
+label {
+    font-size: 40px;
+}
+#temp {
+    height: 4vh;
+}
