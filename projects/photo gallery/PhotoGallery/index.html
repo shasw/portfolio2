@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"   crossorigin="anonymous" />
+    <title>Photo Gallery</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Photo<span>Gallery</span></div>
+            <div class="menu">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="icon">
+                <i class="fas fa-search"></i>
+                <a href="#">Login</a>
+            </div>
+        </nav>
+        <div class="h-text">
+            <i class="fas fa-camera fa-3x"></i>
+            <h1 data-aos="fade-up-right">Capturing the moments that captivate your <span><i class="fas fa-heart"></i></span></h1>
+            <input type="text" placeholder="Search here.....">
+            <button class="btn"><i class="fas fa-search"></i></button>
+        </div>
+    </header>
+
+
+    <section class="filter-gallery">
+        <div class="portfolio-menu">
+            <ul>
+                <li class="active" data-filter="*">All</li>
+                <li data-filter=".nature">Nature</li>
+                <li data-filter=".fashion">Fashion</li>
+                <li data-filter=".wedding">Wedding</li>
+            </ul>
+        </div>
+        <div class="portfolio-item">
+            <div class="item nature" data-aos="flip-left" data-aos-offset="100" data-aos-delay="100">
+                <img src="./Images/nature.1.jpg" width="300" height="300">
+            </div>
+            <div class="item fashion" data-aos="flip-left" data-aos-offset="100" data-aos-delay="200">
+                <img src="./Images/fashion.1.jpg" width="300" height="300">
+            </div>
+            <div class="item wedding" data-aos="flip-left" data-aos-offset="100" data-aos-delay="300">
+                <img src="./Images/wedding.1.jpg" width="300" height="300">
+            </div>
+            <div class="item nature" data-aos="zoom-in" data-aos-offset="100" data-aos-delay="100">
+                <img src="./Images/nature.2.jpg" width="300" height="300">
+            </div>
+            <div class="item fashion" data-aos="zoom-in" data-aos-offset="100" data-aos-delay="200">
+                <img src="./Images/fashion.2.jpg" width="300" height="300">
+            </div>
+            <div class="item wedding" data-aos="zoom-in" data-aos-offset="100" data-aos-delay="300">
+                <img src="./Images/wedding.2.jpg" width="300" height="300">
+            </div>
+            <div class="item nature" data-aos="zoom-in-up" data-aos-offset="100" data-aos-delay="100">
+                <img src="./Images/nature.3.d.jpg" width="300" height="300">
+            </div>
+            <div class="item fashion" data-aos="zoom-in-up" data-aos-offset="100" data-aos-delay="200">
+                <img src="./Images/fashion.3.jpg" width="300" height="300">
+            </div>
+            <div class="item wedding" data-aos="zoom-in-up" data-aos-offset="100" data-aos-delay="300">
+                <img src="./Images/wedding.3.jpg" width="300" height="300">
+            </div>
+        </div>
+    </section>
+
+
+    <section class="member">
+        <div class="member-info" data-aos="zoom-in-up" data-aos-offset="100" data-aos-delay="100">
+            <h1>Our <span>Informations</span></h1>
+            <p>What our members say !</p>
+        </div>
+        <div class="member-card" data-aos="zoom-in-down" data-aos-offset="100" data-aos-delay="200">
+            <img src="./Images/mem.1.jpg" width="300" height="300">
+            <p>All the beautiful women there! Need an extra boost to get to the gym this morning? Having trouble sticking to your fitness plan?We know the feeling when Monday blues creep in and decides to ‘stay in touch’ throughout the day, or you had to file a complaint on Uber, or have a rough day at work and you have to hit the gym. The problem is real, and we feel you! Workout hurts, but so does failure that stops you from being the best version of yourself. And for those days when you need a little motivational boost to muster up the strength to nail it at the gym, you need words that fire up your inner beast! Well, get ready to take your fitness to the next level.</p>
+            <h1>Ayo Ogunseinde</h1>
+            <i class="fab fa-facebook fa-2x"></i>
+            <i class="fab fa-instagram fa-2x"></i>
+            <i class="fab fa-whatsapp fa-2x"></i>
+            <i class="fab fa-twitter fa-2x"></i>
+        </div>
+        <div class="m-images" data-aos="zoom-in" data-aos-offset="100" data-aos-delay="100">
+            <img src="./Images/boy.1.jpg" width="200" height="200">
+            <img src="./Images/girl.2.jpg" width="200" height="200">
+            <img src="./Images/boy.3.jpg" width="200" height="200">
+            <img src="./Images/girl.1.jpg" width="200" height="200">
+            <img src="./Images/boy.2.jpg" width="200" height="200">
+            <img src="./Images/girl.3.jpg" width="200" height="200">
+        </div>
+    </section>
+    <footer>
+        <div class="newsletter">
+            <div data-aos="fade-up" data-aos-offset="100">
+                <h1>Subscibe our newsletter</h1>
+                <p>We are a team of hardworking people who truly care for work </p>
+            </div>
+            <div data-aos="fade-up-right" data-aos-offset="200">
+                <input type="text" placeholder="Enter your email">
+                <button type="submit" class="btn">Subscribe</button>
+            </div>
+        </div>
+        <div class="f-contact" data-aos="zoom-in-up" data-aos-offset="200">
+            <div>
+                <h1>Information</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nail Constant byuer.</p>
+                <i class="fab fa-facebook fa-2x"></i>
+                <i class="fab fa-instagram fa-2x"></i>
+                <i class="fab fa-whatsapp fa-2x"></i>
+                <i class="fab fa-twitter fa-2x"></i>
+            </div>
+            <div>
+                <h1>Useful Links</h1>
+                <p>About Us</p>
+                <p>Gallery</p>
+                <p>Blog Posts</p>
+                <p>Pricing Plans</p>
+            </div>
+            <div>
+                <h1>Details</h1>
+                <p>Photographers</p>
+                <p>Gallery</p>
+                <p>About</p>
+                <p>Pricing Plans</p>
+            </div>
+            <div>
+                <h1>Help & Support</h1>
+                <p>Privacy policy</p>
+                <p>Terms & Conditions</p>
+                <p>Technical Support</p>
+                <p>Customer Care</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <script>
+    $('.portfolio-item').isotope({
+        // options
+        itemSelector: '.item',
+        layoutMode: 'fitRows'
+      });
+
+      $('.portfolio-menu ul li').click(function() {
+          $('.portfolio-menu ul li').removeClass('active');
+          $(this).addClass('active');
+          var selector= $(this).attr('data-filter');
+          $('.portfolio-item').isotope({
+              filter: selector
+          });
+          return false;
+      });
+
+      
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+</body>
+</html>

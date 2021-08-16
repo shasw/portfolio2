@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Student Grade Calculator</title>
+</head>
+<body>
+    <div class="container">
+    <div class="main">
+        <div class="left">
+            <h1>Student<br>Grade<br>Calcy</h1>
+        </div>
+        <div class="right">
+            <form>
+                <input type="number" placeholder="ENGLISH" id="english">
+                <input type="number" placeholder="MATHS" id="maths">
+                <input type="number" placeholder="SCIENCE" id="science">
+                <input type="number" placeholder="PROGRAMING" id="programing">
+                <input type="button" class="btn" value="Show Percentage" id="show" onclick="calc()">
+            </form>
+        </div>
+    </div>
+    <div class="results">
+        <p id="result"></p>
+    </div>
+   </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>

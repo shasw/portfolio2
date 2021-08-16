@@ -29,12 +29,13 @@ html {
 .menu a{
     color: white;
     text-decoration: none;
-    padding: 20px;
+    padding: 10px;
     font-size: 30px;
     font-weight: bold;
 }
 .menu a:hover {
     background: #e74c3c;
+    border-radius: 5px;
 }
 .menu {
     margin-right: 100px;
@@ -160,11 +161,13 @@ nav {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    width: 100%;
 }
 .project-box {
-    flex-basis: 25%;
+    flex-basis: 30%;
     box-shadow: 2px 3px 4px grey;
     padding: 20px;
+    margin: 10px;
 }
 .project-box:hover {
     background: #e74c3c;
